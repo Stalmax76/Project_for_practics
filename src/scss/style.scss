@@ -186,13 +186,14 @@ h2.title {
 }
 //=================third-block ===========
 .third-block {
-   margin-top: 44px;
    margin-right: 50px;
-   background: url("/src/img/main/woman_bg.jpg") 150px 0 / 45% no-repeat;
+   background: url("/src/img/main/woman_bg.jpg") 150px 40px / 43% no-repeat;
+   min-height: 550px;
 }
 .third-block__container {
    max-width: 1379px;
-   height: 502px;
+
+   padding-top: 50px;
 }
 .third-block__title {
    font-weight: 900;
@@ -218,8 +219,57 @@ h2.title {
    font-weight: 700;
 }
 
+//============================= fourth-block ===========================
+.fourth-block {
+   background: url("/src/img/main/second_bg.jpg") center center/cover no-repeat;
+   padding: 86px 0px 79px 0px;
+   min-height: 447px;
+}
+.fourth-block__title {
+   font-size: 30px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #efefef;
+}
+.fourth-block__line {
+   height: 4px;
+   background: #f9bf3b;
+   margin: 16px auto;
+   width: 220px;
+}
+.fourth-block__block-cards {
+   margin-top: 41px;
+   display: flex;
+   justify-content: space-between;
+}
+.fourth-block__card {
+   width: 204px;
+}
+.icon__round {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 115px;
+   height: 115px;
+   background-color: #b4e2ff;
+   border-radius: 100%;
+   margin: 0 auto;
+}
+
+.card__icon {
+}
+
+.card__text {
+   font-weight: 300;
+   color: #efefef;
+   line-height: 20px;
+   text-align: center;
+   // width: 234px;
+   margin-top: 25px;
+}
+
 // ================================
 
-ˇ footer {
+footer {
    background-color: yellow;
 }
