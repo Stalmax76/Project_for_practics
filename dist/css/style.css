@@ -111,7 +111,7 @@ body {
   color: red;
 }
 
-[class*=_container] {
+[class*="_container"] {
   max-width: 1140px;
   margin: 0 auto;
   position: relative;
@@ -206,7 +206,7 @@ h2.title {
   color: #f9bf3b;
   font-weight: 900;
   -webkit-text-decoration: uppercase;
-          text-decoration: uppercase;
+  text-decoration: uppercase;
 }
 
 .main__header-btn,
@@ -284,7 +284,7 @@ h2.title {
   margin-top: 45px;
   display: flex;
   -moz-column-gap: 48px;
-       column-gap: 48px;
+  column-gap: 48px;
 }
 
 .item__second-block {
