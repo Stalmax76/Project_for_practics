@@ -209,7 +209,8 @@ h2.title {
           text-decoration: uppercase;
 }
 
-.main__header-btn {
+.main__header-btn,
+.fifth-block__button {
   display: block;
   width: 313px;
   height: 72px;
@@ -219,11 +220,15 @@ h2.title {
   font-family: "RobotoCondensed";
   font-size: 21px;
   line-height: 24px;
-  align-items: center;
   text-transform: uppercase;
   color: #ffffff;
   text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
   cursor: pointer;
+}
+
+.main__header-btn:hover,
+.fifth-block__button:hover {
+  background: #158db2;
 }
 
 .main__header-more {
@@ -393,6 +398,99 @@ h2.title {
   margin-top: 25px;
 }
 
+.fifth-block {
+  background: #efefef;
+}
+
+.fifth-block__container {
+  padding: 88px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fifth-block__text {
+  margin-top: 45px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+  color: #252525;
+  text-align: center;
+}
+
+.fifth-block__button {
+  margin-top: 51px;
+  text-align: center;
+  padding-top: 24px;
+}
+
+.sixth-block {
+  background-color: #ffffff;
+}
+
+.sixt-block__container {
+  padding-top: 81px;
+}
+
+.sixth-block__image {
+  max-width: 342px;
+  margin: 0 auto;
+}
+
+.sixth-block__image img {
+  min-width: 100%;
+}
+
+.sixth-block__info {
+  padding-top: 36px;
+  padding-bottom: 52px;
+}
+
+.info__title {
+  margin-top: 36px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #252525;
+}
+
+.info__date {
+  margin-top: 30px;
+  font-weight: 900px;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #299cbd;
+}
+
+.info__subtitle {
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 20px;
+  text-align: center;
+  color: #4a4a4a;
+}
+
 footer {
-  background-color: yellow;
+  background: #1a1a1a;
+  height: 169px;
+  color: #888888;
+}
+
+.footer__conteiner {
+  text-align: center;
+  padding-top: 54px;
+}
+
+.footer__link {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  color: #888888;
+  text-decoration: underline;
 }
